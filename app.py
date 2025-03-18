@@ -1,4 +1,8 @@
 import streamlit as st
+import nltk
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 from trie import trie
 
 # ✅ Page configuration
